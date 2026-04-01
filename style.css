@@ -1,0 +1,128 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #ff7e5f, #f2f75f);
+    font-family: sans-serif;
+    justify-items: center;
+}
+
+h1 {
+    font-family: 'Playfair Display', cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: lightblue;
+    font-size: 3em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h6 {
+    font-family: 'Playfair Display', cursive;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    color: blue;
+    font-size: small;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.poster {
+    border: green solid 3px;
+    border-radius: 20px;
+    width: 500px;
+    height: 170px;
+    background-color: rgb(236, 236, 236);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+}
+.poster:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+.h2-1 {
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.zero {
+    font-size: 30px;
+    color: green;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.one {
+    font-size: 10px;
+    color: green;
+    margin-top: 5px;
+}
+.poster2 {
+    border: orange dashed 3px;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 500px;
+    height: 150px;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.poster2:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+.h2-2 {
+    display: grid;
+    place-items: center;
+    color: orange;
+    font-size: 20px;
+}
+ol {
+    display: grid;
+    place-items: center;
+    color: brown;
+}
+.poster3 {
+    border: blue solid 2px;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 500px;
+    height: 100px;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.poster3:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+.h2-3 {
+    display: grid;
+    place-items: center;
+    color: blue;
+    font-size: 20px;
+}
+.two {
+    font-size: 15px;
+    color: black;
+    margin-top: 0px;
+    display: grid;
+    place-items: center;
+}
+.easter-image {
+    display: grid;
+    place-items: center;
+    margin: 20px auto;
+    width: 500px;
+    height: auto;
+}
+.easter-image:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+footer {
+    margin-top: 30px;
+    max-width: 600px;
+    color: black;
+}
